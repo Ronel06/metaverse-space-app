@@ -33,6 +33,20 @@ const Home = () => {
        </div>
       </div>
     </div>
+
+    <div className="custom-section-size">
+      <div className="row vh-100 d-flex align-items-center custom-header-bg2">
+       <div className="section-cards d-flex flex-row justify-content-center">
+          <div className="card text-center w-25">
+              <div><img class="card-img-top" src={image1}></img></div> 
+               <div className="card-body align-items-center">
+               <h5 class="card-title">Card title</h5>
+                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+               </div>
+          </div>
+       </div>
+      </div>
+    </div>
     
 
 
