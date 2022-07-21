@@ -1,0 +1,26 @@
+.custom-section-size {
+  min-height: 100vh;
+  height: fit-content;
+}
+
+.custom-header-bg {
+  background-image: url("../../assets/images/landing/header/bg.png");
+  background-repeat: no-repeat;
+  background-position: center left;
+  background-size: cover;
+}
+
+.custom-header-title {
+  font-size: min(5rem, 15vw);
+  font-weight: bolder;
+}
+
+.custom-header-paragraph {
+  font-size: min(2rem, 10vw);
+  font-weight: 200;
+  word-wrap: break-word;
+}
+
+.custom-header-paragraph span {
+  font-weight: 600;
+}
