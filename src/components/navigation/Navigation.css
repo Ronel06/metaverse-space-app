@@ -1,0 +1,20 @@
+.logo-header img{
+    width:70%;
+}
+.nav-font{
+    font-size: small;
+}
+
+.btn-login,.btn-signup{
+    border-radius:20px;
+    width:100px;
+    border-style: none;
+}
+
+.btn-login{
+    background-color:white;
+    color:black; 
+}
+.btn-signup{
+    background-color: #54C9EE;
+}

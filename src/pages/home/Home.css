@@ -1,5 +1,5 @@
 .custom-section-size {
-  min-height: 100vh;
+  min-height: 100vh;;
   height: fit-content;
 }
 
@@ -23,4 +23,16 @@
 
 .custom-header-paragraph span {
   font-weight: 600;
+}
+
+
+.custom-header-bg2 {
+  background-image: url("../../assets/images/landing/content/content.png");
+  background-repeat: no-repeat;
+  background-position: center left;
+  background-size: cover;
+}
+
+.card{
+  height:550px;
 }
