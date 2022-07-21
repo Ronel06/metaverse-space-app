@@ -18,13 +18,13 @@ function App() {
       <Navigation />
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/account" element={<Account />} />
-          <Route path="/contact" element={<Contact />} />
-          <Route path="/downloads" element={<Downloads />} />
-          <Route path="/register" element={<Register />} />
-          <Route path="/login" element={<Login />} />
+          <Route exact path='/' element={<Home />}/>
+          <Route exact path='/about' element={<About />}/>
+          <Route exact path='/account' element={<Account />}/>
+          <Route exact path='/contact' element={<Contact />}/>
+          <Route exact path='/downloads' element={<Downloads />}/>
+          <Route exact path='/register' element={<Register />}/>
+          <Route exact path='/login' element={<Login />}/>
         </Routes>
       </BrowserRouter>
       <Footer />
