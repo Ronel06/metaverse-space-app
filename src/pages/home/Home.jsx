@@ -24,7 +24,7 @@ const Home = () => {
 
     <div className="container-fluid" style={{ margin: "0px" }}>
       <div className="ratio ratio-16x9  " >
-        <video src={video1} autoPlay={true} loop={true} ></video>
+        <video src={`${process.env.REACT_APP_HOST}${video1}`} autoPlay={true} loop={true} ></video>
         <div className="custom-section-size">
           <div className="row vh-100 d-flex ">
             <div className="col-md-6 ms-0 ms-md-5">
@@ -46,7 +46,7 @@ const Home = () => {
 
       <div className=" custom-section-size">
         <div className="ratio ratio-16x9 m-0 p-0" >
-          <video src={video2} autoPlay={true} loop={true} ></video>
+          <video src={`${process.env.REACT_APP_HOST}${video2}`} autoPlay={true} loop={true} ></video>
           <div className="row vh-100 d-flex align-items-center">
             <div className="col-md-6 offset-md-6">
               <div className="custom-about-panel p-5 text-white">
