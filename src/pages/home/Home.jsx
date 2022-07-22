@@ -45,7 +45,7 @@ const Home = () => {
       </div>
 
       <div className=" custom-section-size">
-        <div class="ratio ratio-16x9 m-0 p-0" >
+        <div className="ratio ratio-16x9 m-0 p-0" >
           <video src={video2} autoPlay={true} loop={true} ></video>
           <div className="row vh-100 d-flex align-items-center">
             <div className="col-md-6 offset-md-6">
@@ -78,7 +78,7 @@ const Home = () => {
                 <h5 className="card-title  mb-3">Card title</h5>
                 <div className="section-half-line"></div>
                 <div className="section-full-line mb-4"></div>
-                <p class="card-text  mb-4">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <p className="card-text  mb-4">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                 <button className="btn btn-info text-white px-5 py-2 custom-header-btn">
                 SEE MORE
                  </button> 
