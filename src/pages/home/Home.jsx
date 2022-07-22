@@ -22,9 +22,9 @@ import "./Home.css";
 const Home = () => {
   return (
 
-    <div className="container-fluid m-0 p-0">
-      <div class="ratio ratio-16x9" >
-        <video src={video1} autoPlay={true} loop={true} muted></video>
+    <div className="container-fluid" style={{ margin: "0px" }}>
+      <div className="ratio ratio-16x9  " >
+        <video src={video1} autoPlay={true} loop={true} ></video>
         <div className="custom-section-size">
           <div className="row vh-100 d-flex ">
             <div className="col-md-6 ms-0 ms-md-5">
@@ -44,9 +44,9 @@ const Home = () => {
         </div>
       </div>
 
-      <div className="container-fluid custom-section-size m-0 p-0">
-        <div class="ratio ratio-16x9" >
-          <video src={video2} autoPlay={true} loop={true} muted></video>
+      <div className=" custom-section-size">
+        <div class="ratio ratio-16x9 m-0 p-0" >
+          <video src={video2} autoPlay={true} loop={true} ></video>
           <div className="row vh-100 d-flex align-items-center">
             <div className="col-md-6 offset-md-6">
               <div className="custom-about-panel p-5 text-white">
@@ -68,14 +68,14 @@ const Home = () => {
         </div>
       </div>
 
-      <div className="custom-section-size m-0 p-0">
+      <div className="custom-section-size">
         <div className="row vh-100 d-flex align-items-center custom-section-bg2">
-          <div className="section-cards d-flex flex-row w-100 justify-content-center ms-3">
+          <div className="section-cards d-flex flex-row w-100 justify-content-center">
 
             <div className="card  text-center w-25 me-5">
-              <div><img class="card-img-top" src={image3} alt="image1"/></div>
+              <div><img className="card-img-top" src={image3} alt="image1"/></div>
               <div className="card-body align-items-center">
-                <h5 class="card-title  mb-3">Card title</h5>
+                <h5 className="card-title  mb-3">Card title</h5>
                 <div className="section-half-line"></div>
                 <div className="section-full-line mb-4"></div>
                 <p class="card-text  mb-4">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -87,12 +87,12 @@ const Home = () => {
             </div>
 
             <div className="card  text-center w-25 me-5">
-              <div><img class="card-img-top" src={image1}  alt="image2"/></div>
+              <div><img className="card-img-top" src={image1}  alt="image2"/></div>
               <div className="card-body align-items-center">
-                <h5 class="card-title  mb-3">Card title</h5>
+                <h5 className="card-title  mb-3">Card title</h5>
                 <div className="section-half-line"></div>
                 <div className="section-full-line mb-4"></div>
-                <p class="card-text  mb-4">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <p className="card-text  mb-4">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                 <button className="btn btn-info text-white px-5 py-2 custom-header-btn">
                SEE MORE
               </button> 
@@ -100,12 +100,12 @@ const Home = () => {
             </div>
 
             <div className="card  text-center w-25 me-5">
-              <div><img class="card-img-top" src={image3}  alt="image3"/></div>
+              <div><img className="card-img-top" src={image3}  alt="image3"/></div>
               <div className="card-body align-items-center">
-                <h5 class="card-title  mb-3">Card title</h5>
+                <h5 className="card-title  mb-3">Card title</h5>
                 <div className="section-half-line"></div>
                 <div className="section-full-line mb-4"></div>
-                <p class="card-text  mb-4">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <p className="card-text  mb-4">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                 <button className="btn btn-info text-white px-5 py-2 custom-header-btn">
                 SEE MORE
               </button> 
@@ -115,8 +115,8 @@ const Home = () => {
           </div>
         </div>
       </div>
-
-      <div className="container-fluid custom-section-size custom-contact-bg m-0 p-0">
+ 
+      <div className="custom-section-size custom-contact-bg">
         <div className="col-md-10 offset-md-1 vh-100 d-flex align-items-center">
           <div className="container-fluid custom-contact-panel p-5">
             <h1 className="custom-contact-title">Contact Us</h1>
@@ -183,9 +183,9 @@ const Home = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div>   
 
-      <div className="container-carousel m-0 p-0">
+     <div className="container-carousel m-0 p-0">
           <Carousel
             swipeable
             draggable
@@ -231,7 +231,7 @@ const Home = () => {
               <img src={image_6} alt="images" className="img-fluid" />
             </div>
           </Carousel>
-        </div>
+        </div> 
 
     </div>
 
