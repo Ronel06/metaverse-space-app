@@ -1,8 +1,16 @@
-import logo from './logo.svg';
-import './App.css';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import { Home, About, Account, Contact, Downloads, Register, Login } from './pages'
-import { Navigation, Footer } from './components'
+import logo from "./logo.svg";
+import "./App.css";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import {
+  Home,
+  About,
+  Account,
+  Contact,
+  Downloads,
+  Register,
+  Login,
+} from "./pages";
+import { Navigation, Footer } from "./components";
 
 function App() {
   return (

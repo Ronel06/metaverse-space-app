@@ -1,0 +1,188 @@
+.custom-section-size {
+  min-height: 100vh;;
+  height: fit-content;
+
+}
+
+.ratio{
+  height: fit-content;
+}
+
+
+/* .custom-header-bg {
+  background-image: url("../../assets/images/landing/header/bg.png");
+  background-repeat: no-repeat;
+  background-position: center left;
+  background-size: cover;
+} */
+
+.custom-header-title {
+  font-size: min(5rem, 15vw);
+  font-weight: bolder;
+  margin-top:490px;
+ 
+}
+
+@media (max-width: 1500px){
+  .custom-header-title {
+    margin-top:350px;
+  }
+}
+
+@media (max-width: 900.98px){
+  .custom-header-title {
+    margin-top:120px;
+  }
+}
+
+@media (max-width: 600.98px){
+  .custom-header-title {
+    margin-top:auto;
+  }
+}
+
+.custom-header-paragraph {
+  font-size: min(2rem, 10vw);
+  font-weight: 200;
+  word-wrap: break-word;
+}
+
+.custom-header-paragraph span {
+  font-weight: 600;
+}
+
+
+/* ABOUT */
+
+.custom-about-bg {
+  background-image: url("../../assets/images/landing/header/bg.png");
+  background-repeat: no-repeat;
+  background-position: center left;
+  background-size: cover;
+}
+
+.custom-about-panel {
+  background-color: rgba(0, 0, 0, 0.404);
+  backdrop-filter: blur(5px);
+  width: 75%;
+  margin: auto;
+}
+
+@media only screen and (max-width: 768px) {
+  .custom-about-panel {
+    background-color: rgba(0, 0, 0, 0.404);
+    width: 100%;
+    margin: auto;
+  }
+}
+
+.custom-about-title {
+  font-size: min(3.5rem, 10vw);
+  font-weight: bolder;
+}
+
+.custom-about-sub {
+  font-size: min(2rem, 5vw);
+  font-weight: 500;
+}
+
+.custom-about-paragraph {
+  font-size: min(1.25rem, 4vw);
+}
+
+.about-half-line {
+  width: 45%;
+  height: 0.3rem;
+  background-color: #54C9EE;
+}
+
+.about-full-line {
+  width: 75%;
+  height: 0.3rem;
+  background-color: #54C9EE;
+}
+
+/* event section */
+
+
+.custom-section-bg2 {
+  background-image: url("../../assets/images/landing/content/sectionBG.png");
+  background-repeat: no-repeat;
+  background-position: center left;
+  background-size: cover;
+}
+
+.card{
+  color:white;
+  background-color: rgba(0, 0, 0, 0.342) !important;
+  height:60vh;
+  border-style:none !important;
+  backdrop-filter: blur(5px);
+  padding:20px;
+}
+
+.section-half-line {
+  width: 35%;
+  height: 0.3rem;
+  background-color: #54C9EE;
+}
+
+.section-full-line {
+  width: 100%;
+  height: 0.3rem;
+  background-color: #54C9EE;
+}
+
+.card-body{
+  margin-top: 20px;
+}
+
+
+/* CONTACT */
+
+.custom-contact-bg {
+  background-image: url("../../assets/images/landing/content/contactBG.png");
+  background-repeat: no-repeat;
+  background-position: center left;
+  background-size: contain;
+}
+
+.custom-contact-panel {
+  background-color: white;
+  box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.411);
+}
+
+.custom-contact-title {
+  font-size: min(3.5rem, 10vw);
+  font-weight: bolder;
+}
+
+.contact-half-line {
+  width: 33%;
+  height: 0.3rem;
+  background-color: aqua;
+}
+
+.contact-full-line {
+  width: 50%;
+  height: 0.3rem;
+  background-color: aqua;
+}
+
+.custom-contact-label {
+  width: 10rem;
+  font-size: min(1.25rem, 4vw);
+}
+
+.custom-btn-contact {
+  margin-left: 8.3rem;
+}
+
+.container-carousel{
+  height:360px;
+}
+
+.custom-image{
+  width:30%;
+ 
+}

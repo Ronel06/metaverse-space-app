@@ -1,0 +1,29 @@
+.custom-footer{
+    background-color: #54C9EE;
+    background-image:url('../../assets/images/landing/footer/footer.png');
+    background-repeat: none;
+    background-size:cover;
+    height:700px;
+}
+
+.nav-font{
+    color:white;
+}
+.custom-row1{
+    border-bottom:1px solid white;
+    padding:50px;
+    padding-bottom:10px;
+}
+.custom-row2{
+    padding-top:50px;
+    padding-bottom:50px;
+    color:white;
+}
+img{
+    width: 200px;
+}
+
+.footer-icon img{
+    width:25px;
+    margin-left:20px;
+}
