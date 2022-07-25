@@ -1,20 +1,40 @@
-.logo-header img{
-    width:70%;
+.nav-container{
+    margin:0px !important;
 }
+
 .nav-font{
-    font-size: small;
+    font-size: 1.10rem;
 }
 
 .btn-login,.btn-signup{
-    border-radius:20px;
+    border-radius:15px;
     width:100px;
     border-style: none;
+    font-size: 1.05rem;
 }
+
+@media only screen and (max-width: 900px) {
+
+    .nav-container{
+        text-align: center;
+    }
+
+    .btn-login-nav{
+      padding-top:40px;
+      padding-bottom:20px;
+      text-align: center;
+    }
+
+
+
+  }
 
 .btn-login{
     background-color:white;
     color:black; 
+  
 }
 .btn-signup{
     background-color: #54C9EE;
+  
 }

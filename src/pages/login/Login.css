@@ -1,0 +1,15 @@
+.custom-section-size {
+    min-height: 100vh;
+    height: fit-content;
+  }
+  
+  .custom-login-bg {
+    background-image: url("../../assets/images/landing/login/login.png") !important;
+    background-repeat: no-repeat;
+    background-position: center left;
+    background-size: cover;
+  }
+  
+  .custom-login-h1 {
+    font-size: min(4rem, 10vw) !important;
+  }

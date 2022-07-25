@@ -1,0 +1,76 @@
+.custom-section-size {
+    min-height: 100vh;
+    height: fit-content;
+  }
+  
+  .custom-register-bg {
+    background-image: url("../../assets/images/landing/header/bg.png");
+    background-repeat: no-repeat;
+    background-position: center left;
+    background-size: cover;
+  }
+  
+  .custom-title-h1 {
+    font-size: min(4rem, 12.5vw);
+  }
+  
+  h1[data-text]::after {
+    content: attr(data-text);
+    display: block;
+    font-size: min(5rem, 15vw);
+    font-weight: bolder;
+    line-height: 3rem;
+    margin-left: 1rem;
+  }
+  
+  h2[data-text]::after {
+    content: attr(data-text);
+    display: block;
+    font-size: min(1.25rem, 4vw);
+    font-weight: 400;
+  }
+  
+  .custom-title-h2 {
+    font-weight: bolder;
+    font-size: min(3rem, 10vw);
+  }
+  
+  .custom-title-h2 span {
+    font-weight: 500;
+  }
+  
+  .custom-input-bg {
+    background-color: rgb(219, 214, 214) !important;
+  }
+  
+  .form-control:focus {
+    box-shadow: none !important;
+  }
+  
+  .custom-check-bg {
+    background-color: rgb(219, 214, 214) !important;
+  }
+  
+  .custom-btn-radius {
+    border-radius: 2rem !important;
+  }
+  
+  .btn:focus {
+    box-shadow: none !important;
+  }
+  
+  .custom-text-sm {
+    font-size: 0.8rem;
+  }
+  
+  .custom-btn-facebook {
+    background-color: blue !important;
+  }
+  
+  .custom-btn-google {
+    background-color: white !important;
+  }
+  
+  .custom-btn-apple {
+    background-color: black !important;
+  }

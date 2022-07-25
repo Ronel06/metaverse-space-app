@@ -1,0 +1,112 @@
+.custom-section-size {
+    min-height: 100vh;;
+    height: fit-content;
+  
+  }
+  
+.custom-header-bgdownload {
+  background-image: url("../../assets/images/landing/header/downloadBG.jpg");
+  background-repeat: no-repeat;
+  background-position: center left;
+  background-size: cover;
+}
+.custom-download-header{
+    font-size: min(3.5rem, 10vw);
+    font-weight: normal;
+}
+
+.custom-download-sub {
+  font-size: min(4rem, 10vw);
+  font-weight: 500;
+}
+
+.custom-section-bgdownload {
+  background-image: url("../../assets/images/landing/home/download-sectionBG1.jpg");
+  background-repeat: no-repeat;
+  background-position: center left;
+  background-size: cover;
+  
+}
+
+.custom-section1-label{
+  color:white;
+  padding-right:100px;
+  padding-top:100px;
+  padding-bottom:100px;
+  width:400px;
+  font-size: x-large;
+  font-weight: lighter;
+
+}
+.custom-section1-label span{
+  font-weight: lighter;
+}
+
+.custom-section-bgdownload2 {
+  background-image: url("../../assets/images/landing/home/download-sectionBG2.png");
+  background-repeat: no-repeat;
+  background-position: center left;
+  background-size: cover;
+
+}
+.div-text2{
+  color:white;
+}
+.div-download{
+  height:100vh;
+}
+
+.div-icons img{
+ width:135px;
+ height:100px;
+}
+
+
+/* CONTACT */
+
+.custom-contact-bg {
+  background-image: url("../../assets/images/landing/home/contactBG.png");
+  background-repeat: no-repeat;
+  background-position: center left;
+  background-size: contain;
+}
+
+.custom-contact-panel {
+  background-color: white;
+  box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.411);
+}
+
+.custom-contact-title {
+  font-size: min(3.5rem, 10vw);
+  font-weight: bolder;
+}
+
+.contact-half-line {
+  width: 33%;
+  height: 0.3rem;
+  background-color: aqua;
+}
+
+.contact-full-line {
+  width: 50%;
+  height: 0.3rem;
+  background-color: aqua;
+}
+
+.custom-contact-label {
+  width: 10rem;
+  font-size: min(1.25rem, 4vw);
+}
+
+.custom-btn-contact {
+  margin-left: 8.3rem;
+}
+
+.container-carousel{
+  height:360px;
+}
+
+.custom-image{
+  width:30%;
+ 
+}
